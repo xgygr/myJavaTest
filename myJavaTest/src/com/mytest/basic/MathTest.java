@@ -2,13 +2,13 @@ package com.mytest.basic;
 
 /**
  * 
- 10¡¢Math.round(11.5) µÈÓÚ¶àÉÙ£¿Math.round(-11.5)µÈÓÚ¶àÉÙ£¿ 
-´ğ£ºMath.round(11.5)µÄ·µ»ØÖµÊÇ12£¬Math.round(-11.5)µÄ·µ»ØÖµÊÇ-11¡£
-ËÄÉáÎåÈëµÄÔ­ÀíÊÇÔÚ²ÎÊıÉÏ¼Ó0.5È»ºó½øĞĞÏÂÈ¡Õû(floor())¡£
+ 10ã€Math.round(11.5) ç­‰äºå¤šå°‘ï¼ŸMath.round(-11.5)ç­‰äºå¤šå°‘ï¼Ÿ 
+ç­”ï¼šMath.round(11.5)çš„è¿”å›å€¼æ˜¯12ï¼ŒMath.round(-11.5)çš„è¿”å›å€¼æ˜¯-11ã€‚
+å››èˆäº”å…¥çš„åŸç†æ˜¯åœ¨å‚æ•°ä¸ŠåŠ 0.5ç„¶åè¿›è¡Œä¸‹å–æ•´(floor())ã€‚
 
 Math.floor() : 
-  ¡°ÏòÏÂÈ¡Õû¡±£¬»òÕßËµ¡°ÏòÏÂÉáÈë¡±£¬¼´È¡²»´óÓÚxµÄ×î´óÕûÊı
-  £¨Óë¡°ËÄÉáÎåÈë¡±²»Í¬£¬ÏÂÈ¡ÕûÊÇÖ±½ÓÈ¡°´ÕÕÊıÖáÉÏ×î½Ó½üÒªÇóÖµµÄ×ó±ßÖµ£¬¼´²»´óÓÚÒªÇóÖµµÄ×î´óµÄÄÇ¸öÖµ£©¡£
+  â€œå‘ä¸‹å–æ•´â€ï¼Œæˆ–è€…è¯´â€œå‘ä¸‹èˆå…¥â€ï¼Œå³å–ä¸å¤§äºxçš„æœ€å¤§æ•´æ•°
+  ï¼ˆä¸â€œå››èˆäº”å…¥â€ä¸åŒï¼Œä¸‹å–æ•´æ˜¯ç›´æ¥å–æŒ‰ç…§æ•°è½´ä¸Šæœ€æ¥è¿‘è¦æ±‚å€¼çš„å·¦è¾¹å€¼ï¼Œå³ä¸å¤§äºè¦æ±‚å€¼çš„æœ€å¤§çš„é‚£ä¸ªå€¼ï¼‰ã€‚
  *
  */
 public class MathTest {
@@ -17,13 +17,13 @@ public class MathTest {
 		
 		System.out.println("Math.round(-8.1):"+Math.round(-8.1));
 		System.out.println("Math.round(-8.4):"+Math.round(-8.4));
-		System.out.println("Math.round(-8.5):"+Math.round(-8.5));  //×¢ÒâÕâ¸ö
+		System.out.println("Math.round(-8.5):"+Math.round(-8.5));  //æ³¨æ„è¿™ä¸ª
 		System.out.println("Math.round(-8.6):"+Math.round(-8.6));
 		System.out.println("Math.round(-8.9):"+Math.round(-8.9));
 		
 		System.out.println("Math.round(8.1):"+Math.round(8.1));
 		System.out.println("Math.round(8.4):"+Math.round(8.4));
-		System.out.println("Math.round(8.5):"+Math.round(8.5));  //×¢ÒâÕâ¸ö
+		System.out.println("Math.round(8.5):"+Math.round(8.5));  //æ³¨æ„è¿™ä¸ª
 		System.out.println("Math.round(8.6):"+Math.round(8.6));
 		System.out.println("Math.round(8.9):"+Math.round(8.9));
 		System.out.println("");
@@ -37,8 +37,8 @@ public class MathTest {
 		System.out.println("Math.floor(-8.9):"+Math.floor(-8.9));
 		
 		/*
-		12¡¢ÓÃ×îÓĞĞ§ÂÊµÄ·½·¨¼ÆËã2³ËÒÔ8£¿ 
-		´ğ£º 2 << 3£¨×óÒÆ3Î»Ïàµ±ÓÚ³ËÒÔ2µÄ3´Î·½£¬ÓÒÒÆ3Î»Ïàµ±ÓÚ³ıÒÔ2µÄ3´Î·½£©¡£
+		12ã€ç”¨æœ€æœ‰æ•ˆç‡çš„æ–¹æ³•è®¡ç®—2ä¹˜ä»¥8ï¼Ÿ 
+		ç­”ï¼š 2 << 3ï¼ˆå·¦ç§»3ä½ç›¸å½“äºä¹˜ä»¥2çš„3æ¬¡æ–¹ï¼Œå³ç§»3ä½ç›¸å½“äºé™¤ä»¥2çš„3æ¬¡æ–¹ï¼‰ã€‚
 		*/
 		System.out.println(2<<3);
 		System.out.println(80>>3);

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/com/mytest/baseDataType/AutoUnboxingTest.java=UTF-8
+encoding//src/com/mytest/baseDataType/BaseDataType.java=UTF-8
+encoding//src/com/mytest/baseDataType/StackHeapMethodAreaTest.java=UTF-8
+encoding//src/com/mytest/basic/MathTest.java=UTF-8
+encoding//src/com/mytest/basic/StringEqualTest.java=UTF-8
+encoding//src/com/mytest/basic/StringTest.java=UTF-8
+encoding//src/com/mytest/basic/SwitchTest.java=UTF-8
+encoding//src/com/mytest/error/OutOfMemoryErrorTest.java=UTF-8
+encoding//src/com/mytest/error/StackOverflowTest.java=UTF-8
+encoding/<project>=UTF-8

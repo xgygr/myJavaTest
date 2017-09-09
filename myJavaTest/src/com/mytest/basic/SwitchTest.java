@@ -2,10 +2,10 @@ package com.mytest.basic;
 
 /**
  * 
-11¡¢switch ÊÇ·ñÄÜ×÷ÓÃÔÚbyte ÉÏ£¬ÊÇ·ñÄÜ×÷ÓÃÔÚlong ÉÏ£¬ÊÇ·ñÄÜ×÷ÓÃÔÚStringÉÏ£¿ 
-´ğ£ºÔÚJava 5ÒÔÇ°£¬switch(expr)ÖĞ£¬exprÖ»ÄÜÊÇbyte¡¢short¡¢char¡¢int¡£
-´ÓJava 5¿ªÊ¼£¬JavaÖĞÒıÈëÁËÃ¶¾ÙÀàĞÍ£¬exprÒ²¿ÉÒÔÊÇenumÀàĞÍ£¬
-´ÓJava 7¿ªÊ¼£¬expr»¹¿ÉÒÔÊÇ×Ö·û´®£¨String£©£¬µ«ÊÇ³¤ÕûĞÍ£¨long£©ÔÚÄ¿Ç°ËùÓĞµÄ°æ±¾ÖĞ¶¼ÊÇ²»¿ÉÒÔµÄ¡£
+11ã€switch æ˜¯å¦èƒ½ä½œç”¨åœ¨byte ä¸Šï¼Œæ˜¯å¦èƒ½ä½œç”¨åœ¨long ä¸Šï¼Œæ˜¯å¦èƒ½ä½œç”¨åœ¨Stringä¸Šï¼Ÿ 
+ç­”ï¼šåœ¨Java 5ä»¥å‰ï¼Œswitch(expr)ä¸­ï¼Œexpråªèƒ½æ˜¯byteã€shortã€charã€intã€‚
+ä»Java 5å¼€å§‹ï¼ŒJavaä¸­å¼•å…¥äº†æšä¸¾ç±»å‹ï¼Œexprä¹Ÿå¯ä»¥æ˜¯enumç±»å‹ï¼Œ
+ä»Java 7å¼€å§‹ï¼Œexprè¿˜å¯ä»¥æ˜¯å­—ç¬¦ä¸²ï¼ˆStringï¼‰ï¼Œä½†æ˜¯é•¿æ•´å‹ï¼ˆlongï¼‰åœ¨ç›®å‰æ‰€æœ‰çš„ç‰ˆæœ¬ä¸­éƒ½æ˜¯ä¸å¯ä»¥çš„ã€‚
  *
  */
 public class SwitchTest {
@@ -36,14 +36,14 @@ public class SwitchTest {
 				break;
 		}
 		
-		//1.7¿ªÊ¼Ö§³Östring
+		//1.7å¼€å§‹æ”¯æŒstring
 		switch(str){
 			case "sss" :
 				System.out.println("String");
 				break;
 		}
 		
-		//×¢Òâ¼Óbreak£¬²»È»»á³öÏÖÏÂÃæµÄ½á¹û
+		//æ³¨æ„åŠ breakï¼Œä¸ç„¶ä¼šå‡ºç°ä¸‹é¢çš„ç»“æœ
 		byte aa = 3;
 
 		switch(aa){

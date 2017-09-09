@@ -1,8 +1,8 @@
 package com.mytest.error;
 
 /**
- * 写代码使得分别出现StackOverflowError、OutOfMemoryError
- * 堆栈溢出错误一般是递归调用嘛。下面的代码就可以出现：
+ * 鍐欎唬鐮佷娇寰楀垎鍒嚭鐜癝tackOverflowError銆丱utOfMemoryError
+ * 鍫嗘爤婧㈠嚭閿欒涓�鑸槸閫掑綊璋冪敤鍢涖�備笅闈㈢殑浠ｇ爜灏卞彲浠ュ嚭鐜帮細
  *
  */
 public class StackOverflowTest {

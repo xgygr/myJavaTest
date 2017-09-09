@@ -2,27 +2,27 @@ package com.mytest.basic;
 
 /**
  * 
-19¡¢StringºÍStringBuilder¡¢StringBufferµÄÇø±ð£¿ 
-´ð£ºJavaÆ½Ì¨Ìá¹©ÁËÁ½ÖÖÀàÐÍµÄ×Ö·û´®£ºStringºÍStringBuffer/StringBuilder£¬ËüÃÇ¿ÉÒÔ´¢´æºÍ²Ù×÷×Ö·û´®¡£
-ÆäÖÐStringÊÇÖ»¶Á×Ö·û´®£¬Ò²¾ÍÒâÎ¶×ÅStringÒýÓÃµÄ×Ö·û´®ÄÚÈÝÊÇ²»ÄÜ±»¸Ä±äµÄ¡£¶øStringBuffer/StringBuilderÀà
-±íÊ¾µÄ×Ö·û´®¶ÔÏó¿ÉÒÔÖ±½Ó½øÐÐÐÞ¸Ä¡£StringBuilderÊÇJava 5ÖÐÒýÈëµÄ£¬ËüºÍStringBufferµÄ·½·¨ÍêÈ«ÏàÍ¬£¬
-Çø±ðÔÚÓÚËüÊÇÔÚµ¥Ïß³Ì»·¾³ÏÂÊ¹ÓÃµÄ£¬ÒòÎªËüµÄËùÓÐ·½Ãæ¶¼Ã»ÓÐ±»synchronizedÐÞÊÎ£¬Òò´ËËüµÄÐ§ÂÊÒ²±ÈStringBufferÒª¸ß¡£
+19ã€Stringå’ŒStringBuilderã€StringBufferçš„åŒºåˆ«ï¼Ÿ 
+ç­”ï¼šJavaå¹³å°æä¾›äº†ä¸¤ç§ç±»åž‹çš„å­—ç¬¦ä¸²ï¼šStringå’ŒStringBuffer/StringBuilderï¼Œå®ƒä»¬å¯ä»¥å‚¨å­˜å’Œæ“ä½œå­—ç¬¦ä¸²ã€‚
+å…¶ä¸­Stringæ˜¯åªè¯»å­—ç¬¦ä¸²ï¼Œä¹Ÿå°±æ„å‘³ç€Stringå¼•ç”¨çš„å­—ç¬¦ä¸²å†…å®¹æ˜¯ä¸èƒ½è¢«æ”¹å˜çš„ã€‚è€ŒStringBuffer/StringBuilderç±»
+è¡¨ç¤ºçš„å­—ç¬¦ä¸²å¯¹è±¡å¯ä»¥ç›´æŽ¥è¿›è¡Œä¿®æ”¹ã€‚StringBuilderæ˜¯Java 5ä¸­å¼•å…¥çš„ï¼Œå®ƒå’ŒStringBufferçš„æ–¹æ³•å®Œå…¨ç›¸åŒï¼Œ
+åŒºåˆ«åœ¨äºŽå®ƒæ˜¯åœ¨å•çº¿ç¨‹çŽ¯å¢ƒä¸‹ä½¿ç”¨çš„ï¼Œå› ä¸ºå®ƒçš„æ‰€æœ‰æ–¹é¢éƒ½æ²¡æœ‰è¢«synchronizedä¿®é¥°ï¼Œå› æ­¤å®ƒçš„æ•ˆçŽ‡ä¹Ÿæ¯”StringBufferè¦é«˜ã€‚
 
-ÃæÊÔÌâ1 - Ê²Ã´Çé¿öÏÂÓÃ+ÔËËã·û½øÐÐ×Ö·û´®Á¬½Ó±Èµ÷ÓÃStringBuffer/StringBuilder¶ÔÏóµÄappend·½·¨Á¬½Ó×Ö·û´®ÐÔÄÜ¸üºÃ£¿
+é¢è¯•é¢˜1 - ä»€ä¹ˆæƒ…å†µä¸‹ç”¨+è¿ç®—ç¬¦è¿›è¡Œå­—ç¬¦ä¸²è¿žæŽ¥æ¯”è°ƒç”¨StringBuffer/StringBuilderå¯¹è±¡çš„appendæ–¹æ³•è¿žæŽ¥å­—ç¬¦ä¸²æ€§èƒ½æ›´å¥½ï¼Ÿ
 
-ÃæÊÔÌâ2 - ÇëËµ³öÏÂÃæ³ÌÐòµÄÊä³ö¡£
+é¢è¯•é¢˜2 - è¯·è¯´å‡ºä¸‹é¢ç¨‹åºçš„è¾“å‡ºã€‚
 
-²¹³ä£º½â´ðÉÏÃæµÄÃæÊÔÌâÐèÒªÇå³ýÁ½µã£º
-1. String¶ÔÏóµÄintern·½·¨»áµÃµ½×Ö·û´®¶ÔÏóÔÚ³£Á¿³ØÖÐ¶ÔÓ¦µÄ°æ±¾µÄÒýÓÃ£¨Èç¹û³£Á¿³ØÖÐÓÐÒ»¸ö×Ö·û´®ÓëString¶ÔÏóµÄ
-equals½á¹ûÊÇtrue£©£¬Èç¹û³£Á¿³ØÖÐÃ»ÓÐ¶ÔÓ¦µÄ×Ö·û´®£¬Ôò¸Ã×Ö·û´®½«±»Ìí¼Óµ½³£Á¿³ØÖÐ£¬È»ºó·µ»Ø³£Á¿³ØÖÐ×Ö·û´®µÄÒýÓÃ£»
-2. ×Ö·û´®µÄ+²Ù×÷Æä±¾ÖÊÊÇ´´½¨ÁËStringBuilder¶ÔÏó½øÐÐappend²Ù×÷£¬È»ºó½«Æ´½ÓºóµÄStringBuilder¶ÔÏóÓÃtoString
-·½·¨´¦Àí³ÉString¶ÔÏó£¬ÕâÒ»µã¿ÉÒÔÓÃjavap -c StringEqualTest.classÃüÁî»ñµÃclassÎÄ¼þ¶ÔÓ¦µÄJVM×Ö½ÚÂëÖ¸Áî¾Í¿ÉÒÔ¿´³öÀ´¡£
+è¡¥å……ï¼šè§£ç­”ä¸Šé¢çš„é¢è¯•é¢˜éœ€è¦æ¸…é™¤ä¸¤ç‚¹ï¼š
+1. Stringå¯¹è±¡çš„internæ–¹æ³•ä¼šå¾—åˆ°å­—ç¬¦ä¸²å¯¹è±¡åœ¨å¸¸é‡æ± ä¸­å¯¹åº”çš„ç‰ˆæœ¬çš„å¼•ç”¨ï¼ˆå¦‚æžœå¸¸é‡æ± ä¸­æœ‰ä¸€ä¸ªå­—ç¬¦ä¸²ä¸ŽStringå¯¹è±¡çš„
+equalsç»“æžœæ˜¯trueï¼‰ï¼Œå¦‚æžœå¸¸é‡æ± ä¸­æ²¡æœ‰å¯¹åº”çš„å­—ç¬¦ä¸²ï¼Œåˆ™è¯¥å­—ç¬¦ä¸²å°†è¢«æ·»åŠ åˆ°å¸¸é‡æ± ä¸­ï¼Œç„¶åŽè¿”å›žå¸¸é‡æ± ä¸­å­—ç¬¦ä¸²çš„å¼•ç”¨ï¼›
+2. å­—ç¬¦ä¸²çš„+æ“ä½œå…¶æœ¬è´¨æ˜¯åˆ›å»ºäº†StringBuilderå¯¹è±¡è¿›è¡Œappendæ“ä½œï¼Œç„¶åŽå°†æ‹¼æŽ¥åŽçš„StringBuilderå¯¹è±¡ç”¨toString
+æ–¹æ³•å¤„ç†æˆStringå¯¹è±¡ï¼Œè¿™ä¸€ç‚¹å¯ä»¥ç”¨javap -c StringEqualTest.classå‘½ä»¤èŽ·å¾—classæ–‡ä»¶å¯¹åº”çš„JVMå­—èŠ‚ç æŒ‡ä»¤å°±å¯ä»¥çœ‹å‡ºæ¥ã€‚
  *
  */
 public class StringEqualTest {
 
 	public static void main(String[] args) {
-		//TODO: ÒªÅªÇå³þ
+		//TODO: è¦å¼„æ¸…æ¥š
 		String s1 = "Programming";
 		String s2 = new String("Programming");
 		String s3 = "Program";

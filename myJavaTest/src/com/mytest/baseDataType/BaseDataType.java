@@ -2,7 +2,7 @@ package com.mytest.baseDataType;
 
 public class BaseDataType {
 	
-	//float f = 3.2;  //±¨´í 
+	//float f = 3.2;  //æŠ¥é”™ 
 	float f = 3.2f; 
 	
 	double d = 3.2;
@@ -10,13 +10,13 @@ public class BaseDataType {
 	long l = 200;
 	int i = 200;
 	
-	//s1 = s1 + 1	//±¨´í  
-	//¶ÔÓÚshort s1 = 1; s1 = s1 + 1;ÓÉÓÚ1ÊÇintÀàĞÍ£¬Òò´Ës1+1ÔËËã½á¹ûÒ²ÊÇint ĞÍ£¬ĞèÒªÇ¿ÖÆ×ª»»ÀàĞÍ²ÅÄÜ¸³Öµ¸øshortĞÍ
+	//s1 = s1 + 1	//æŠ¥é”™  
+	//å¯¹äºshort s1 = 1; s1 = s1 + 1;ç”±äº1æ˜¯intç±»å‹ï¼Œå› æ­¤s1+1è¿ç®—ç»“æœä¹Ÿæ˜¯int å‹ï¼Œéœ€è¦å¼ºåˆ¶è½¬æ¢ç±»å‹æ‰èƒ½èµ‹å€¼ç»™shortå‹
 	
 	{
 		short s1 = 1; 
-		//s1 = s1 + 1; //±¨´í  
-		//¶ÔÓÚshort s1 = 1; s1 = s1 + 1;ÓÉÓÚ1ÊÇintÀàĞÍ£¬Òò´Ës1+1ÔËËã½á¹ûÒ²ÊÇint ĞÍ£¬ĞèÒªÇ¿ÖÆ×ª»»ÀàĞÍ²ÅÄÜ¸³Öµ¸øshortĞÍ
+		//s1 = s1 + 1; //æŠ¥é”™  
+		//å¯¹äºshort s1 = 1; s1 = s1 + 1;ç”±äº1æ˜¯intç±»å‹ï¼Œå› æ­¤s1+1è¿ç®—ç»“æœä¹Ÿæ˜¯int å‹ï¼Œéœ€è¦å¼ºåˆ¶è½¬æ¢ç±»å‹æ‰èƒ½èµ‹å€¼ç»™shortå‹
 		
 		s1 += 1;
 		
@@ -27,61 +27,61 @@ public class BaseDataType {
     	
     	
         // byte  
-        System.out.println("»ù±¾ÀàĞÍ£ºbyte ¶ş½øÖÆÎ»Êı£º" + Byte.SIZE);  
-        System.out.println("°ü×°Àà£ºjava.lang.Byte");  
-        //×îĞ¡ÖµÊÇ -128£¨-2^7£©£» ×î´óÖµÊÇ 127£¨2^7-1£©£»
-        System.out.println("×îĞ¡Öµ£¨-2^7£©£ºByte.MIN_VALUE=" + Byte.MIN_VALUE);  
-        System.out.println("×î´óÖµ£¨2^7-1£©£ºByte.MAX_VALUE=" + Byte.MAX_VALUE);  
+        System.out.println("åŸºæœ¬ç±»å‹ï¼šbyte äºŒè¿›åˆ¶ä½æ•°ï¼š" + Byte.SIZE);  
+        System.out.println("åŒ…è£…ç±»ï¼šjava.lang.Byte");  
+        //æœ€å°å€¼æ˜¯ -128ï¼ˆ-2^7ï¼‰ï¼› æœ€å¤§å€¼æ˜¯ 127ï¼ˆ2^7-1ï¼‰ï¼›
+        System.out.println("æœ€å°å€¼ï¼ˆ-2^7ï¼‰ï¼šByte.MIN_VALUE=" + Byte.MIN_VALUE);  
+        System.out.println("æœ€å¤§å€¼ï¼ˆ2^7-1ï¼‰ï¼šByte.MAX_VALUE=" + Byte.MAX_VALUE);  
         System.out.println();  
   
         // short  
-        System.out.println("»ù±¾ÀàĞÍ£ºshort ¶ş½øÖÆÎ»Êı£º" + Short.SIZE);  
-        System.out.println("°ü×°Àà£ºjava.lang.Short");  
-        //×îĞ¡ÖµÊÇ -32768£¨-2^15£©£»×î´óÖµÊÇ 32767£¨2^15 - 1£©£»
-        System.out.println("×îĞ¡Öµ£¨-2^15£©£ºShort.MIN_VALUE=" + Short.MIN_VALUE);  
-        System.out.println("×î´óÖµ£¨2^15-1£©£ºShort.MAX_VALUE=" + Short.MAX_VALUE);  
+        System.out.println("åŸºæœ¬ç±»å‹ï¼šshort äºŒè¿›åˆ¶ä½æ•°ï¼š" + Short.SIZE);  
+        System.out.println("åŒ…è£…ç±»ï¼šjava.lang.Short");  
+        //æœ€å°å€¼æ˜¯ -32768ï¼ˆ-2^15ï¼‰ï¼›æœ€å¤§å€¼æ˜¯ 32767ï¼ˆ2^15 - 1ï¼‰ï¼›
+        System.out.println("æœ€å°å€¼ï¼ˆ-2^15ï¼‰ï¼šShort.MIN_VALUE=" + Short.MIN_VALUE);  
+        System.out.println("æœ€å¤§å€¼ï¼ˆ2^15-1ï¼‰ï¼šShort.MAX_VALUE=" + Short.MAX_VALUE);  
         System.out.println();  
   
         // int  
-        System.out.println("»ù±¾ÀàĞÍ£ºint ¶ş½øÖÆÎ»Êı£º" + Integer.SIZE);  
-        System.out.println("°ü×°Àà£ºjava.lang.Integer");  
-        //×îĞ¡ÖµÊÇ -2,147,483,648£¨-2^31£©£»×î´óÖµÊÇ 2,147,483,647£¨2^31 - 1£©£»
-        System.out.println("×îĞ¡Öµ£¨-2^31£©£ºInteger.MIN_VALUE=" + Integer.MIN_VALUE);  
-        System.out.println("×î´óÖµ£¨2^31-1£©£ºInteger.MAX_VALUE=" + Integer.MAX_VALUE);  
+        System.out.println("åŸºæœ¬ç±»å‹ï¼šint äºŒè¿›åˆ¶ä½æ•°ï¼š" + Integer.SIZE);  
+        System.out.println("åŒ…è£…ç±»ï¼šjava.lang.Integer");  
+        //æœ€å°å€¼æ˜¯ -2,147,483,648ï¼ˆ-2^31ï¼‰ï¼›æœ€å¤§å€¼æ˜¯ 2,147,483,647ï¼ˆ2^31 - 1ï¼‰ï¼›
+        System.out.println("æœ€å°å€¼ï¼ˆ-2^31ï¼‰ï¼šInteger.MIN_VALUE=" + Integer.MIN_VALUE);  
+        System.out.println("æœ€å¤§å€¼ï¼ˆ2^31-1ï¼‰ï¼šInteger.MAX_VALUE=" + Integer.MAX_VALUE);  
         System.out.println();  
   
         // long  
-        System.out.println("»ù±¾ÀàĞÍ£ºlong ¶ş½øÖÆÎ»Êı£º" + Long.SIZE);  
-        System.out.println("°ü×°Àà£ºjava.lang.Long");  
-      //×îĞ¡ÖµÊÇ -9,223,372,036,854,775,808£¨-2^63£©£» ×î´óÖµÊÇ 9,223,372,036,854,775,807£¨2^63 -1£©£»
-        System.out.println("×îĞ¡Öµ£¨-2^63£©£ºLong.MIN_VALUE=" + Long.MIN_VALUE);  
-        System.out.println("×î´óÖµ£¨2^63-1£©£ºLong.MAX_VALUE=" + Long.MAX_VALUE);  
+        System.out.println("åŸºæœ¬ç±»å‹ï¼šlong äºŒè¿›åˆ¶ä½æ•°ï¼š" + Long.SIZE);  
+        System.out.println("åŒ…è£…ç±»ï¼šjava.lang.Long");  
+      //æœ€å°å€¼æ˜¯ -9,223,372,036,854,775,808ï¼ˆ-2^63ï¼‰ï¼› æœ€å¤§å€¼æ˜¯ 9,223,372,036,854,775,807ï¼ˆ2^63 -1ï¼‰ï¼›
+        System.out.println("æœ€å°å€¼ï¼ˆ-2^63ï¼‰ï¼šLong.MIN_VALUE=" + Long.MIN_VALUE);  
+        System.out.println("æœ€å¤§å€¼ï¼ˆ2^63-1ï¼‰ï¼šLong.MAX_VALUE=" + Long.MAX_VALUE);  
         System.out.println();  
   
         // float  
-        System.out.println("»ù±¾ÀàĞÍ£ºfloat ¶ş½øÖÆÎ»Êı£º" + Float.SIZE);  
-        System.out.println("°ü×°Àà£ºjava.lang.Float");  
+        System.out.println("åŸºæœ¬ç±»å‹ï¼šfloat äºŒè¿›åˆ¶ä½æ•°ï¼š" + Float.SIZE);  
+        System.out.println("åŒ…è£…ç±»ï¼šjava.lang.Float");  
         //-3.403E38 - 3.403E38
-        System.out.println("×îĞ¡Öµ£¨-3.403E38£©£ºFloat.MIN_VALUE=" + Float.MIN_VALUE);  
-        System.out.println("×î´óÖµ£¨3.403E38£©£ºFloat.MAX_VALUE=" + Float.MAX_VALUE);  
+        System.out.println("æœ€å°å€¼ï¼ˆ-3.403E38ï¼‰ï¼šFloat.MIN_VALUE=" + Float.MIN_VALUE);  
+        System.out.println("æœ€å¤§å€¼ï¼ˆ3.403E38ï¼‰ï¼šFloat.MAX_VALUE=" + Float.MAX_VALUE);  
         System.out.println();  
   
         // double  
-        System.out.println("»ù±¾ÀàĞÍ£ºdouble ¶ş½øÖÆÎ»Êı£º" + Double.SIZE);  
-        System.out.println("°ü×°Àà£ºjava.lang.Double");  
+        System.out.println("åŸºæœ¬ç±»å‹ï¼šdouble äºŒè¿›åˆ¶ä½æ•°ï¼š" + Double.SIZE);  
+        System.out.println("åŒ…è£…ç±»ï¼šjava.lang.Double");  
         //-1.798E308 - 1.798E308
-        System.out.println("×îĞ¡Öµ£¨-1.798E308£©£ºDouble.MIN_VALUE=" + Double.MIN_VALUE);  
-        System.out.println("×î´óÖµ£¨1.798E308£©£ºDouble.MAX_VALUE=" + Double.MAX_VALUE);  
+        System.out.println("æœ€å°å€¼ï¼ˆ-1.798E308ï¼‰ï¼šDouble.MIN_VALUE=" + Double.MIN_VALUE);  
+        System.out.println("æœ€å¤§å€¼ï¼ˆ1.798E308ï¼‰ï¼šDouble.MAX_VALUE=" + Double.MAX_VALUE);  
         System.out.println();  
   
         // char  
-        System.out.println("»ù±¾ÀàĞÍ£ºchar ¶ş½øÖÆÎ»Êı£º" + Character.SIZE);  
-        System.out.println("°ü×°Àà£ºjava.lang.Character");  
-        // ÒÔÊıÖµĞÎÊ½¶ø²»ÊÇ×Ö·ûĞÎÊ½½«Character.MIN_VALUEÊä³öµ½¿ØÖÆÌ¨  
-        System.out.println("×îĞ¡Öµ£ºCharacter.MIN_VALUE="  
+        System.out.println("åŸºæœ¬ç±»å‹ï¼šchar äºŒè¿›åˆ¶ä½æ•°ï¼š" + Character.SIZE);  
+        System.out.println("åŒ…è£…ç±»ï¼šjava.lang.Character");  
+        // ä»¥æ•°å€¼å½¢å¼è€Œä¸æ˜¯å­—ç¬¦å½¢å¼å°†Character.MIN_VALUEè¾“å‡ºåˆ°æ§åˆ¶å°  
+        System.out.println("æœ€å°å€¼ï¼šCharacter.MIN_VALUE="  
                 + (int) Character.MIN_VALUE);  
-        // ÒÔÊıÖµĞÎÊ½¶ø²»ÊÇ×Ö·ûĞÎÊ½½«Character.MAX_VALUEÊä³öµ½¿ØÖÆÌ¨  
-        System.out.println("×î´óÖµ£ºCharacter.MAX_VALUE="  
+        // ä»¥æ•°å€¼å½¢å¼è€Œä¸æ˜¯å­—ç¬¦å½¢å¼å°†Character.MAX_VALUEè¾“å‡ºåˆ°æ§åˆ¶å°  
+        System.out.println("æœ€å¤§å€¼ï¼šCharacter.MAX_VALUE="  
                 + (int) Character.MAX_VALUE);  
     }  
 
